@@ -1,7 +1,7 @@
 #!/bin/bash
-export resourceGroup=myResourceGroup$RANDOM
-virtualMachine=myVM
-adminUser=azureuser
+export resourceGroup=rgjk
+virtualMachine=vmjenkins
+adminUser=spertus
 pathToKubeConfig=~/.kube/config
 
 if [ -f $pathToKubeConfig ]
